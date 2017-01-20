@@ -1,0 +1,52 @@
+<head>
+<style>
+#main {
+    width: 900px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+#blaster {
+    background: red;
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 447px;
+    border-radius: 50% 50% 0 0;
+}
+
+.rock {
+    background: #474747;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.shot {
+    background: red;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+}
+
+#points {
+    margin-left: 920px;
+}
+</style>
+</head>
+<body>
+<div id='main'>
+    <div id='rocks'></div>
+    <div id='shots'></div>
+    <div id='blaster'></div>
+
+    <div id='points'>
+        <p> <span id='hits'> 0 </span> hits </p>
+        <p> <span id='misses'> 0 </span> misses </p>
+    </div>
+</div>
+<script src='bundle.js'></script>
+</body>

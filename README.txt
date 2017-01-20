@@ -1,0 +1,1 @@
+In these source files, you will find all projects created in this course. You can install the packages in each by running `npm install` in the project directories. You will need to run `webpack --watch` in the project directory to compile the JavaScript.
